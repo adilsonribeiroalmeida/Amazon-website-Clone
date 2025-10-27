@@ -1,42 +1,48 @@
 <!DOCTYPE html>
-<!-- Coding By CodingNepal - www.codingnepalweb.com -->
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amazon Website Clone | CodingNepal</title>
+  <title>Amazon Clone | Adilson</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
 </head>
 
 <body>
+  <!-- ================= HEADER ================= -->
   <header>
     <nav class="navbar">
+      <!-- LOGO -->
       <div class="nav-logo">
-        <a href="#"><img src="images/amazon_logo.png" alt="logo"></a>
+        <a href="#"><img src="images/amazon_logo.png" alt="Amazon Logo"></a>
       </div>
+
+      <!-- LOCALIZAÇÃO -->
       <div class="address">
-        <a href="#" class="deliver">Enviar</a>
+        <a href="#" class="deliver">Enviar para</a>
         <div class="map-icon">
-          <span class="material-symbols-outlined">para Adilson</span>
+          <span class="material-symbols-outlined">location_on</span>
           <a href="#" class="location">Sales</a>
         </div>
       </div>
 
+      <!-- PESQUISA -->
       <div class="nav-search">
         <select class="select-search">
           <option>Todos</option>
-          <option>All Categories</option>
-          <option>Amazon Devices</option>
+          <option>Livros</option>
+          <option>Eletrônicos</option>
+          <option>Mais Vendidos</option>
         </select>
-        <input type="text" placeholder="Search Amazon" class="search-input">
+        <input type="text" placeholder="Pesquisar na Amazon" class="search-input">
         <div class="search-icon">
           <span class="material-symbols-outlined">search</span>
         </div>
       </div>
 
+      <!-- CONTA -->
       <div class="sign-in">
         <a href="#">
           <p>Olá, Adilson</p>
@@ -44,110 +50,115 @@
         </a>
       </div>
 
+      <!-- DEVOLUÇÕES -->
       <div class="returns">
         <a href="#">
           <p>Devoluções</p>
-          <span> e Pedidos</span>
+          <span>e Pedidos</span>
         </a>
       </div>
 
+      <!-- CARRINHO -->
       <div class="cart">
         <a href="#">
-          <span class="images/shopping_cart.png">shopping_cart</span>
+          <span class="material-symbols-outlined">shopping_cart</span>
         </a>
         <p>Carrinho</p>
       </div>
     </nav>
 
+    <!-- ================= BARRA INFERIOR ================= -->
     <div class="banner">
       <div class="banner-content">
         <div class="panel">
           <span class="material-symbols-outlined">menu</span>
-          <a href="#">All</a>
+          <a href="#">Todos</a>
         </div>
 
         <ul class="links">
-          <li><a href="#">Today's Deals</a></li>
-          <li><a href="#">Customer Service</a></li>
-          <li><a href="#">Registry</a></li>
-          <li><a href="#">Gift Cards</a></li>
-          <li><a href="#">Sell</a></li>
+          <li><a href="#">Ofertas de hoje</a></li>
+          <li><a href="#">Atendimento ao Cliente</a></li>
+          <li><a href="#">Registro</a></li>
+          <li><a href="#">Cartões Presente</a></li>
+          <li><a href="#">Vender</a></li>
         </ul>
+
         <div class="deals">
-          <a href="#">Shop deals in Electronics</a>
+          <a href="#">Ofertas em Eletrônicos</a>
         </div>
       </div>
     </div>
   </header>
 
+  <!-- ================= HERO SECTION ================= -->
   <section class="hero-section"></section>
 
+  <!-- ================= SEÇÃO DE PRODUTOS ================= -->
   <section class="shop-section">
     <div class="shop-images">
       <div class="shop-link">
-        <h3>Shop Laptops &amp; Tables</h3>
-        <img src="images/img-1.png" alt="card">
-        <a href="#">Shop now</a>
-      </div>
-      <div class="shop-link">
-        <h3>Veja mais categorias</h3>
-        <img src="images/img-2.png" alt="card">
-        <a href="#">Alto-falantes e caixa... Roteadores</a>
-      </div>
-      <div class="shop-link">
-        <h3>Continue comprando ofertas</h3>
-        <img src="images/img-3.png" alt="card">
+        <h3>Shop Laptops & Tablets</h3>
+        <img src="images/img-1.png" alt="Produto 1">
         <a href="#">Ver mais ofertas</a>
       </div>
+
       <div class="shop-link">
-        <h3>Ofertas melhores avaliadas</h3>
-        <img src="images/img-4.png" alt="card">
-        <a href="#">Ver mais</a>
+        <h3>Veja mais categorias</h3>
+        <img src="images/img-2.png" alt="Produto 2">
+        <a href="#">Roteadores e Áudio</a>
+      </div>
+
+      <div class="shop-link">
+        <h3>Continue comprando</h3>
+        <img src="images/img-3.png" alt="Produto 3">
+        <a href="#">Ofertas em destaque</a>
+      </div>
+
+      <div class="shop-link">
+        <h3>Mais bem avaliados</h3>
+        <img src="images/img-4.png" alt="Produto 4">
+        <a href="#">Ver todos</a>
       </div>
     </div>
   </section>
 
+  <!-- ================= FOOTER ================= -->
   <footer>
-    <a href="#" class="footer-title">
-      Back to top
-    </a>
+    <a href="#" class="footer-title">Voltar ao topo</a>
+
     <div class="footer-items">
       <ul>
-        <h3>Get to Know Us</h3>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Press Release</a></li>
+        <h3>Conheça-nos</h3>
+        <li><a href="#">Sobre nós</a></li>
+        <li><a href="#">Carreiras</a></li>
+        <li><a href="#">Comunicados</a></li>
         <li><a href="#">Amazon Science</a></li>
       </ul>
+
       <ul>
-        <h3>Connect with Us</h3>
+        <h3>Conecte-se conosco</h3>
         <li><a href="#">Facebook</a></li>
         <li><a href="#">Twitter</a></li>
         <li><a href="#">Instagram</a></li>
       </ul>
+
       <ul>
-        <h3>Make Money with Us</h3>
-        <li><a href="#">Sell on Amazon</a></li>
-        <li><a href="#">Sell under Amazon Accelerator</a></li>
-        <li><a href="#">Protect and Build Your Brand</a></li>
-        <li><a href="#">Amazon Global Selling</a></li>
-        <li><a href="#">Become an Affiliate</a></li>
-        <li><a href="#">Fulfillment by Amazon</a></li>
-        <li><a href="#">Advertise Your Products</a></li>
-        <li><a href="#">Amazon Pay on Merchants</a></li>
+        <h3>Ganhe dinheiro conosco</h3>
+        <li><a href="#">Venda na Amazon</a></li>
+        <li><a href="#">Anuncie seus produtos</a></li>
+        <li><a href="#">Programa de afiliados</a></li>
+        <li><a href="#">Amazon Pay</a></li>
       </ul>
+
       <ul>
-        <h3>Let Us Help You</h3>
-        <li><a href="#">COVID-19 and Amazon</a></li>
-        <li><a href="#">Your Account</a></li>
-        <li><a href="#">Return Centre</a></li>
-        <li><a href="#">100% Purchase Protection</a></li>
-        <li><a href="#">Amazon App Download</a></li>
-        <li><a href="#">Help</a></li>
+        <h3>Ajuda</h3>
+        <li><a href="#">Sua conta</a></li>
+        <li><a href="#">Centro de devoluções</a></li>
+        <li><a href="#">Compras protegidas</a></li>
+        <li><a href="#">Baixar app Amazon</a></li>
       </ul>
     </div>
   </footer>
-
 </body>
 
 </html>
