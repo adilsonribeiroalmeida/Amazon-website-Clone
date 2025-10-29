@@ -1,65 +1,41 @@
 
+<!-- markdownlint-disable MD033 -->
 
 <div align="center">
 
 # 🛒 Amazon Website Clone
 
-Projeto desenvolvido como parte do meu aprendizado no  
-📚 **[Dev Club](https://www.devclub.com.br)**  
-
-💻 **Recriação visual inspirada na Amazon**, com foco em **HTML**, **CSS** e **responsividade**.
-
----
-
-### 🔗 [👉 Acesse o projeto online aqui](https://adilsonribeiroalmeida.github.io/Amazon-website-Clone/)
-
----
+<img src="./images/amazon-web-site-mockup.jpg" alt="Amazon Website Clone mockup" width="800px">
 
 </div>
 
-## 🚀 Tecnologias utilizadas
+Projeto desenvolvido como parte do meu aprendizado no **[Dev Club](https://www.devclub.com.br)**.
 
-<div align="center">
+O **Amazon Website Clone** é uma recriação visual inspirada na **Amazon**, com foco em **HTML**, **CSS** e **responsividade**.
+
+---
+
+## 🚀 Tecnologias utilizadas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-</div>
+![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
-## 🌙 Preview do Projeto
+## 💻 Visualização do projeto
 
-<div align="center" style="background-color:#0d1117; padding:20px; border-radius:12px;">
-  <img src="./assets/amazon%20web%20site.jpg" alt="Amazon Website Clone Preview" width="90%">
-</div>
+Você pode visualizar o projeto clicando na imagem abaixo:
 
----
-
-## 🧠 Aprendizados
-
-Durante o desenvolvimento deste projeto, pratiquei:
-
-- Estruturação semântica em **HTML**
-- Criação de layouts com **Flexbox** e **CSS Grid**
-- Organização e importação de fontes externas
-- Posicionamento e dimensionamento de imagens
-- Publicação do site usando **GitHub Pages**
+[![Visualização do projeto Amazon Website Clone](./images/web-site-amazon-desktop.jpg)](https://adilsonribeiroalmeida.github.io/Amazon-website-Clone/)
 
 ---
 
-## 📂 Como clonar o repositório
+## 🔗 Links úteis
 
-```bash
-git clone https://github.com/adilsonribeiroalmeida/Amazon-website-Clone.git
-👨‍💻 Autor
-<div 
-align="center">
-Desenvolvido com 💙 por Adilson Ribeiro Almeida
-Aluno do Dev Club
+- [🌐 Acesse o projeto online](https://adilsonribeiroalmeida.github.io/Amazon-website-Clone/)
+- [💻 Repositório no GitHub](https://github.com/adilsonribeiroalmeida/Amazon-website-Clone)
+- [👤 Meu perfil no GitHub](https://github.com/adilsonribeiroalmeida)
 
-</div>
-yaml
-Copy code
+<!-- markdownlint-enable MD033 -->
