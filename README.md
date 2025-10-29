@@ -30,7 +30,12 @@ Você pode visualizar o projeto clicando na imagem abaixo:
 
 ![Visualização do projeto Amazon Website Clone](./images/amazon-mockup.jpg)
 ---
-## Demontração
+## 🖼️ Demonstração
+
+Adicione aqui uma imagem ou captura de tela do projeto:
+
+<<<<<<< HEAD
+![Amazon Website Clone]
 
 ## 🔗 Links úteis
 
