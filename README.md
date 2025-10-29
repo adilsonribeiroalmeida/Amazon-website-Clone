@@ -22,7 +22,7 @@ O **Amazon Website Clone** é uma recriação moderna da página inicial da Amaz
 <p align="center">
   <img src="https://github.com/adilsonribeiroalmeida/Amazon-website-Clone/blob/main/images/amazon-mockup.jpg?raw=true" width="45%">
   <img src="https://github.com/adilsonribeiroalmeida/Amazon-website-Clone/blob/main/images/amazon-desktop.jpg?raw=true" width="45%">
-</p>
+  </p>
 
 ---
 
