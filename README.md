@@ -55,7 +55,8 @@ Durante o desenvolvimento deste projeto, pratiquei:
 ```bash
 git clone https://github.com/adilsonribeiroalmeida/Amazon-website-Clone.git
 👨‍💻 Autor
-<div align="center">
+<div 
+align="center">
 Desenvolvido com 💙 por Adilson Ribeiro Almeida
 Aluno do Dev Club
 
