@@ -45,5 +45,5 @@ Durante o desenvolvimento deste projeto, aprimorei:
 
 ## ✨ Autor
 
-Feito com 💛 por **Adilson Ribeiro Almeida**  
+Feito por **Adilson Ribeiro Almeida**  
 [🔗 Meu GitHub](https://github.com/adilsonribeiroalmeida)
