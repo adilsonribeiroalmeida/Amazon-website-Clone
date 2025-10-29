@@ -28,8 +28,7 @@ O **Amazon Website Clone** é uma recriação visual inspirada na **Amazon**, co
 
 Você pode visualizar o projeto clicando na imagem abaixo:
 
-[![Visualização do projeto Amazon Website Clone]([./images/web-site-amazon-desktop.jpg)](https://adilsonribeiroalmeida.github.io/Amazon-website-Clone/](https://github.com/adilsonribeiroalmeida/Amazon-website-Clone/blob/main/images/amazon-mockup.jpg)
-
+![Visualização do projeto Amazon Website Clone](./images/amazon-mockup.jpg)
 ---
 
 ## 🔗 Links úteis
