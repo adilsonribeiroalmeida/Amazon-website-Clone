@@ -1,3 +1,6 @@
+/* ===========================
+   FONTE E RESET GLOBAL
+   =========================== */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
 
 * {
@@ -11,6 +14,14 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* ===========================
+   LINKS
+   =========================== */
 a {
   text-decoration: none;
   color: #fff;
@@ -20,39 +31,36 @@ a:hover {
   color: #ddd;
 }
 
-/* HEADER */
+/* ===========================
+   HEADER E NAVBAR
+   =========================== */
 header {
   width: 100%;
   background-color: #0f1111;
 }
 
-/* NAVBAR SUPERIOR */
 .navbar {
-  height: 60px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   color: #fff;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 35px;
-}
-
-.nav-logo {
-  margin-right: 40px;
+  padding: 10px 20px;
 }
 
 .nav-logo img {
+  width: 110px;
+  height: auto;
   margin-top: 10px;
-  width: 128px;
 }
 
-/* LOCALIZAÇÃO */
 .address {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .address .deliver {
@@ -66,7 +74,9 @@ header {
   gap: 3px;
 }
 
-/* BARRA DE PESQUISA */
+/* ===========================
+   BARRA DE PESQUISA
+   =========================== */
 .nav-search {
   display: flex;
   justify-content: space-evenly;
@@ -86,8 +96,7 @@ header {
 }
 
 .search-input {
-  max-width: 600px;
-  width: 100%;
+  flex: 1;
   font-size: 1rem;
   border: none;
   outline: none;
@@ -95,8 +104,7 @@ header {
 }
 
 .search-icon {
-  max-width: 45px;
-  width: 100%;
+  width: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,7 +116,9 @@ header {
   border-bottom-right-radius: 4px;
 }
 
-/* LOGIN, PEDIDOS E CARRINHO */
+/* ===========================
+   LOGIN, PEDIDOS E CARRINHO
+   =========================== */
 .sign-in p,
 .returns p {
   font-size: 0.75rem;
@@ -122,18 +132,21 @@ header {
 
 .cart {
   display: flex;
+  align-items: center;
 }
 
 .cart .cart-icon {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .cart p {
-  margin-top: 20px;
+  margin-top: 10px;
   font-weight: 500;
 }
 
-/* BARRA INFERIOR */
+/* ===========================
+   BARRA INFERIOR (MENU)
+   =========================== */
 .banner {
   padding: 10px 20px;
   background: #222f3d;
@@ -148,71 +161,70 @@ header {
   align-items: center;
   justify-content: flex-start;
   gap: 25px;
-  padding-left: 15px;
+  flex-wrap: wrap;
 }
 
-.panel {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  cursor: pointer;
-}
-
-.links {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  gap: 20px;
-  margin-left: 25px;
-}
-
-.deals {
-  margin-left: auto;
-}
-
-.panel span {
-  margin-right: 7px;
-}
-
-.links a {
-  padding: 10px 0;
-}
-
-.deals a {
-  font-size: 0.9rem;
-  font-weight: 500;
-  white-space: nowrap;
-}
-
-/* HERO SECTION */
+/* ===========================
+   HERO SECTION (BANNER PRINCIPAL)
+   =========================== */
 .hero-section {
   width: 100%;
-  height: 400px;
-  background-image: url("./images/hero-img.png");
-  background-position: center;
-  background-size: cover;
-  position: relative;
   overflow: hidden;
+  position: relative;
+  background: none;
 }
 
-/* SEÇÃO DE PRODUTOS COM FUNDO ROXO */
+.hero-picture,
+.hero-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+  .hero-section {
+    height: 400px;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-img {
+    height: 230px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+/* ===========================
+   SEÇÃO DE PRODUTOS
+   =========================== */
 .shop-section {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   background: linear-gradient(to bottom, #4b0082 0%, #7b2cbf 40%, #d4a3ff 75%, #ffffff 100%);
-  padding: 50px 40px;
+  padding: 50px 20px;
 }
 
 .shop-images {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 18px;
   max-width: 1400px;
   width: 100%;
 }
 
-/* CARDS */
 .shop-link {
   background-color: #fff;
   border-radius: 10px;
@@ -230,8 +242,7 @@ header {
 
 .shop-link img {
   width: 100%;
-  height: 280px;
-  object-fit: cover;
+  height: auto;
   border-radius: 10px;
   margin-bottom: 10px;
 }
@@ -251,7 +262,9 @@ header {
   transition: color 0.3s ease;
 }
 
-/* FOOTER */
+/* ===========================
+   RODAPÉ
+   =========================== */
 .footer-title {
   display: flex;
   align-items: center;
@@ -265,22 +278,22 @@ header {
 
 .footer-items {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   width: 100%;
-  margin: 0 auto;
   background: #232f3e;
+  padding: 20px 0;
 }
 
 .footer-items h3 {
   font-size: 1rem;
   font-weight: 500;
   color: #fff;
-  margin: 20px 0 10px 0;
+  margin-bottom: 10px;
 }
 
 .footer-items ul {
   list-style: none;
-  margin-bottom: 20px;
 }
 
 .footer-items li a {
@@ -290,31 +303,4 @@ header {
 
 .footer-items li a:hover {
   text-decoration: underline;
-}
-
-/* RESPONSIVIDADE */
-@media (max-width: 900px) {
-  .shop-images {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .shop-link {
-    width: 100%;
-  }
-}
-
-@media (max-width: 600px) {
-  .shop-images {
-    grid-template-columns: 1fr;
-  }
-
-  .navbar {
-    flex-wrap: wrap;
-    height: auto;
-    gap: 10px;
-  }
-
-  .nav-search {
-    margin-top: 10px;
-  }
 }
